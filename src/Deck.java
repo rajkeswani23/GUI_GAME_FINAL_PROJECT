@@ -1,9 +1,9 @@
 import java.util.ArrayList;
-;public class Deck
+public class Deck
 {
     private ArrayList<Card> cards;
     private int cardsLeft;
-    public Deck(String[] ranks, String[] suits, int points[])
+    public Deck(String[] ranks, String[] suits, int[] points)
     {
         cards = new ArrayList<>();
         int index = 0;
@@ -17,8 +17,7 @@ import java.util.ArrayList;
             index++;
         }
         cardsLeft = cards.size();
-        //Need to Make Method for Shuffle
-//        shuffle();
+        shuffle();
     }
 
     public boolean isEmpty()
@@ -51,5 +50,4 @@ import java.util.ArrayList;
             cards.set(r, temp);
         }
     }
-
 }
