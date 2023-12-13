@@ -23,7 +23,7 @@ public class Game
         currentBet = 0;
     }
 
-    public void pringInstructions()
+    public void printInstructions()
     {
         System.out.println("Welcome to Blackjack!!!");
         System.out.println("You will start with 2000 dollars.");
