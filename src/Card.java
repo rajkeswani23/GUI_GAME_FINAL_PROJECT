@@ -1,9 +1,13 @@
+//Raj Keswani
+//December 14
+
 public class Card
 {
     private String rank;
     private String suit;
     private int point;
 
+    //constructor that takes in a rank, suit, and point
     public Card(String rank, String suit, int point )
     {
         this.rank = rank;
@@ -11,6 +15,7 @@ public class Card
         this.point = point;
     }
 
+    //setters and getters for rank, point and suit
     public String getRank()
     {
         return rank;
@@ -18,9 +23,7 @@ public class Card
 
     public void setRank(String rank)
     {
-        {
             this.rank = rank;
-        }
     }
 
     public String getSuit()
@@ -38,10 +41,14 @@ public class Card
         this.point = point;
     }
 
-    public void setSuit(String suit) {
-        if(suit.equals("clubs") || suit.equals("diamonds") || suit.equals("hearts") || suit.equals("spades"))
-        {
+    public void setSuit(String suit)
+    {
             this.suit = suit;
-        }
+    }
+
+    @Override
+    //toString that tells you the card's rank and suit
+    public String toString() {
+        return (rank + " of " + suit);
     }
 }
