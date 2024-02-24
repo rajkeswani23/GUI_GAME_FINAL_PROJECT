@@ -84,8 +84,11 @@ public class Game
     // This also prints the dealer and user hands.
     public void dealInitial()
     {
+        refillAndShuffleDeck();
         player.addCard(deck.deal());
+        refillAndShuffleDeck();
         dealer.addCard(deck.deal());
+        refillAndShuffleDeck();
         player.addCard(deck.deal());
         window.repaint();
         dealer.dealerPrint();
@@ -491,7 +494,7 @@ public class Game
             int[] points = {2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11};
             System.out.println("Deck is empty. Refilling and reshuffling...");
             // The refillDeck method gets called on these arrays
-            deck.refillDeck(suits, ranks, points);
+            deck.refillDeck(ranks, suits, points);
         }
     }
 

@@ -67,7 +67,7 @@ public class CardGameViewer extends JFrame
         // If there are no cards in the hand, nothing will be drawn
         for (int i = 0; i < game.getPlayer().getSecondHand().size(); i++)
         {
-            Card drawnCard = game.getDealer().getSecondHand().get(i);
+            Card drawnCard = game.getPlayer().getSecondHand().get(i);
             drawnCard.draw(g,cardImages,drawnCard,(i + 1) * CARD_SPACING,630);
         }
 
