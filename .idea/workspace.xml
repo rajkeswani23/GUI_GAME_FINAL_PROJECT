@@ -4,12 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c367b6f3-f790-4df2-b625-03a76bbf36ae" name="Changes" comment="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points&#10;&#10;Finished the constructor as well as print instructions method for game class">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="c367b6f3-f790-4df2-b625-03a76bbf36ae" name="Changes" comment="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points&#10;&#10;Finished the constructor as well as print instructions method for game class&#10;&#10;Finished Black Jack Card Game">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CardGameViewer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +92,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/rajkeswani/Desktop/CardGame/Resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
+      <module name="CardGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CardGame" />
@@ -53,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -106,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702457403892</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points&#10;&#10;Finished the constructor as well as print instructions method for game class&#10;&#10;Finished Black Jack Card Game">
+      <option name="closed" value="true" />
+      <created>1702594014592</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702594014592</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,7 +207,8 @@
     <MESSAGE value="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all of the methods" />
     <MESSAGE value="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points" />
     <MESSAGE value="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points&#10;&#10;Finished the constructor as well as print instructions method for game class" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points&#10;&#10;Finished the constructor as well as print instructions method for game class" />
+    <MESSAGE value="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points&#10;&#10;Finished the constructor as well as print instructions method for game class&#10;&#10;Finished Black Jack Card Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on card class with instance variables and setters + getters&#10;&#10;Created the deck class and added all the methods&#10;&#10;Finished the player class giving each player a name, hand, and points&#10;&#10;Finished the constructor as well as print instructions method for game class&#10;&#10;Finished Black Jack Card Game" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
